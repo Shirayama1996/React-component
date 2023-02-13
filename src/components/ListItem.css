@@ -1,0 +1,17 @@
+#items {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#items img {
+    width: 100%;
+}
+
+#items span {
+    display    : block;
+    font-weight: bold;
+}
+
+.item {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,62 @@
+header>div {
+    position           : relative;
+    background-image   : url("../assets/images/header-background.jpg");
+    background-repeat  : no-repeat;
+    background-size    : cover;
+    background-position: center;
+}
+
+header img {
+    width  : 15%;
+    display: block;
+    margin : auto;
+}
+
+header p {
+    font-size     : 3vw;
+    position      : absolute;
+    text-transform: uppercase;
+    margin-left   : 5%;
+    margin-top    : 5%;
+}
+
+header div:first-of-type {
+    position: absolute;
+    top     : 0;
+    right   : 0;
+    padding : 10px;
+}
+
+header button:last-of-type {
+    width    : 10vw;
+    font-size: 2vw;
+    padding  : 5px;
+}
+
+header button:first-of-type {
+    width       : 11vw;
+    font-size   : 2vw;
+    padding     : 5px;
+    margin-right: 10px;
+}
+
+header div:last-of-type {
+    position: static;
+}
+
+header div:last-of-type #search-box {
+    width : 60%;
+    margin: auto;
+}
+
+@media screen and (min-width: 900px) {
+    header button:last-of-type {
+        width    : 5vw;
+        font-size: 1vw;
+    }
+
+    header button:first-of-type {
+        width    : 6vw;
+        font-size: 1vw;
+    }
+}
